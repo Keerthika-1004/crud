@@ -1,0 +1,35 @@
+2023-02-15 11:10:44.979  WARN 228856 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19h50m16s725ms201µs800ns).
+2023-02-15 12:18:54.052  INFO 228856 --- [RMI TCP Connection(82)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-02-15 12:18:54.070  INFO 228856 --- [RMI TCP Connection(82)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-15 12:18:54.072  INFO 228856 --- [RMI TCP Connection(82)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-15 12:18:54.080  INFO 228856 --- [RMI TCP Connection(82)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-15 12:18:54.084  INFO 228856 --- [RMI TCP Connection(82)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-15 12:18:54.091  INFO 228856 --- [RMI TCP Connection(82)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-15 12:19:00.602  INFO 238680 --- [restartedMain] c.e.demo.CrudOperationsApplication       : Starting CrudOperationsApplication using Java 17.0.4.1 on CLAP3335 with PID 238680 (C:\Users\dineshkumar.mr\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\CrudOperations\target\classes started by dineshkumar.mr in C:\Users\dineshkumar.mr\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\CrudOperations)
+2023-02-15 12:19:00.603 DEBUG 238680 --- [restartedMain] c.e.demo.CrudOperationsApplication       : Running with Spring Boot v2.7.5, Spring v5.3.23
+2023-02-15 12:19:00.604  INFO 238680 --- [restartedMain] c.e.demo.CrudOperationsApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-15 12:19:00.661  INFO 238680 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-15 12:19:00.661  INFO 238680 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-15 12:19:01.671  INFO 238680 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-15 12:19:01.733  INFO 238680 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interfaces.
+2023-02-15 12:19:02.135  INFO 238680 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$5d1422e7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-15 12:19:02.197  INFO 238680 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-02-15 12:19:02.832  INFO 238680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 1234 (http)
+2023-02-15 12:19:02.848  INFO 238680 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-15 12:19:02.849  INFO 238680 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-02-15 12:19:02.975  INFO 238680 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-15 12:19:02.975  INFO 238680 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2314 ms
+2023-02-15 12:19:03.270  INFO 238680 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-15 12:19:03.337  INFO 238680 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-02-15 12:19:03.531  INFO 238680 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-15 12:19:03.655  INFO 238680 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-15 12:19:04.100  INFO 238680 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-15 12:19:04.151  INFO 238680 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-02-15 12:19:05.043  INFO 238680 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-15 12:19:05.061  INFO 238680 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-15 12:19:05.752  WARN 238680 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-15 12:19:07.107  INFO 238680 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-15 12:19:07.178  INFO 238680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 1234 (http) with context path ''
+2023-02-15 12:19:07.201  INFO 238680 --- [restartedMain] c.e.demo.CrudOperationsApplication       : Started CrudOperationsApplication in 7.325 seconds (JVM running for 8.382)
+2023-02-15 12:28:34.944  WARN 238680 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m754ms391µs300ns).
+2023-02-15 15:02:28.458  WARN 238680 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=22m21s472ms217µs500ns).

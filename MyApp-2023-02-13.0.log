@@ -1,0 +1,31 @@
+2023-02-13 16:22:58.482  INFO 201788 --- [restartedMain] c.e.demo.CrudOperationsApplication       : Starting CrudOperationsApplication using Java 17.0.4.1 on CLAP3335 with PID 201788 (C:\Users\dineshkumar.mr\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\CrudOperations\target\classes started by dineshkumar.mr in C:\Users\dineshkumar.mr\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\CrudOperations)
+2023-02-13 16:22:58.499 DEBUG 201788 --- [restartedMain] c.e.demo.CrudOperationsApplication       : Running with Spring Boot v2.7.5, Spring v5.3.23
+2023-02-13 16:22:58.500  INFO 201788 --- [restartedMain] c.e.demo.CrudOperationsApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-13 16:22:58.604  INFO 201788 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-13 16:22:58.604  INFO 201788 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-13 16:22:59.838  INFO 201788 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-13 16:22:59.891  INFO 201788 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.
+2023-02-13 16:23:00.326  INFO 201788 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f0bed06] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-13 16:23:00.392  INFO 201788 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-02-13 16:23:00.996  INFO 201788 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 1234 (http)
+2023-02-13 16:23:01.007  INFO 201788 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-13 16:23:01.007  INFO 201788 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-02-13 16:23:01.152  INFO 201788 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-13 16:23:01.153  INFO 201788 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2548 ms
+2023-02-13 16:23:01.400  INFO 201788 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-13 16:23:01.458  INFO 201788 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-02-13 16:23:01.689  INFO 201788 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-13 16:23:01.812  INFO 201788 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-13 16:23:02.166  INFO 201788 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-13 16:23:02.205  INFO 201788 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-02-13 16:23:03.126  INFO 201788 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-13 16:23:03.138  INFO 201788 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-13 16:23:03.955  WARN 201788 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-13 16:23:04.519  INFO 201788 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-13 16:23:05.038  INFO 201788 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 1234 (http) with context path ''
+2023-02-13 16:23:05.262  INFO 201788 --- [restartedMain] c.e.demo.CrudOperationsApplication       : Started CrudOperationsApplication in 7.25 seconds (JVM running for 8.45)
+2023-02-13 16:24:06.195  INFO 201788 --- [http-nio-1234-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-13 16:24:06.196  INFO 201788 --- [http-nio-1234-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-13 16:24:06.200  INFO 201788 --- [http-nio-1234-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2023-02-13 16:49:21.868  WARN 201788 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m49s436ms699µs600ns).
+2023-02-13 17:41:55.448  WARN 201788 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=37m3s362ms364µs700ns).
